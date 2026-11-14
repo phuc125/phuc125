@@ -18,3 +18,5 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from typing import Any, Dict
 
 from backtesting.historical_data import HistoricalDatasetBuilder
+if __name__ == "__main__":
+    render_streamlit_app()
